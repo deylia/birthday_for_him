@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Sayangkuu 🤍</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="music/allofme.mp3" type="audio/mp3">
+</audio>
+
+<div class="flowers"></div>
+
+
+<section class="hero" id="hero">
+
+<div class="hero-card">
+
+<p class="top-title">
+For My Favorite Person
+</p>
+
+<h1>
+Happy Birthday
+<br>
+<span>Sayangkuu 🤍</span>
+</h1>
+
+<div class="cover-photo">
+<img src="images/foto1.jpeg" alt="">
+</div>
+
+<p class="subtitle">
+
+Today is all about you.
+
+Thank you for existing.
+
+Thank you for coming into my life.
+
+♡
+
+</p>
+
+<button id="openBook">
+Open Our Story 🤍
+</button>
+
+</div>
+
+</section>
+
+
+<section class="scrapbook" id="scrapbook">
+
+<!-- PAGE 1 -->
+
+<div class="page">
+
+<div class="polaroid">
+
+<img src="images/foto2.jpeg">
+
+<p>
+Our Favorite Memory
+</p>
+
+</div>
+
+<div class="letter">
+
+<h2>
+Happiest birthday to my love 🤍
+</h2>
+
+<p>
+
+Today it's your special day.
+
+Selamat bertambah usia sayang.
+
+Semoga kamu selalu sehat,
+
+Semoga segala impian kamu tercapai,
+
+Semoga semua usaha kamu dipermudah.
+
+Aku berharap semua doa baik selalu menyertai kamu.
+
+Terima kasih sudah menjadi laki-laki yang begitu baik.
+
+Terima kasih selalu berusaha untuk aku.
+
+Aku mungkin belum bisa merayakan ulang tahun kamu secara langsung.
+
+aku berharap website kecil ini bisa bikin kamu tersenyum.
+
+♡
+
+</p>
+
+</div>
+
+</div>
+
+<!-- PAGE 2 -->
+
+<div class="page">
+
+<h2>
+🎁 Mini Game
+</h2>
+
+<p class="center">
+
+Pilih hadiah yang menurut kamu berisi surat dari aku 🤍
+
+</p>
+
+<div class="gift-container">
+
+<div class="gift" data-id="1">
+🎁
+</div>
+
+<div class="gift" data-id="2">
+🎁
+</div>
+
+<div class="gift" data-id="3">
+🎁
+</div>
+
+</div>
+
+<p id="giftText"></p>
+
+<button id="giftNext">
+
+Lanjut ❤️
+
+</button>
+
+</div>
+
+<!-- PAGE 3 -->
+
+<div class="page">
+
+<h2>
+
+🧩 Tebak Moment Kita
+
+</h2>
+
+<img src="images/foto3.jpeg" class="quiz-photo">
+
+<p class="center">
+
+Kira-kira ini foto kita waktu...
+
+</p>
+
+<div class="quiz-buttons">
+
+<button class="quizWrong">
+
+Minum Kopi ❤️
+
+</button>
+
+<button id="correctQuiz">
+
+bete kaki aku sakit ❤️
+
+</button>
+
+<button class="quizWrong">
+
+Jalan bareng ❤️
+
+</button>
+
+</div>
+
+<p id="quizResult"></p>
+
+</div>
+
+
+PAGE 4
+
+<div class="page">
+
+<h2>
+📸 Our Memories
+</h2>
+
+<p class="center">
+Every picture has its own story 🤍
+</p>
+
+<div class="gallery">
+
+<div class="photo-card">
+<img src="images/foto1.jpeg">
+<span>So imut 🤍</span>
+</div>
+
+<div class="photo-card">
+<img src="images/foto2.jpeg">
+<span>Favorite Date 🌷</span>
+</div>
+
+<div class="photo-card">
+<img src="images/foto3.jpeg">
+<span>Always Happy ❤️</span>
+</div>
+
+<div class="photo-card">
+<img src="images/foto4.jpeg">
+<span>akuu imupp ✨</span>
+</div>
+
+<div class="photo-card">
+<img src="images/foto5.jpeg">
+<span>Best Moment 🥹</span>
+</div>
+
+<div class="photo-card">
+<img src="images/foto6.jpeg">
+<span>Our Smile ♡</span>
+</div>
+
+</div>
+
+</div>
+
+
+PAGE 5
+
+<div class="page">
+
+<h2>
+📝 Sticky Notes
+</h2>
+
+<p class="center">
+Klik setiap note yaa 🤍
+</p>
+
+<div class="notes">
+
+<div class="note">
+Klik Aku 🤍
+</div>
+
+<div class="note">
+Klik Aku 🤍
+</div>
+
+<div class="note">
+Klik Aku 🤍
+</div>
+
+<div class="note">
+Klik Aku 🤍
+</div>
+
+<div class="note">
+Klik Aku 🤍
+</div>
+
+<div class="note">
+Klik Aku 🤍
+</div>
+
+<div class="note">
+Klik Aku 🤍
+</div>
+
+<div class="note">
+Klik Aku 🤍
+</div>
+
+</div>
+
+</div>
+
+PAGE 6
+
+<div class="page">
+
+<h2>
+❤️ Love Meter
+</h2>
+
+<p class="center">
+Menurut kamu seberapa sayang aku?
+</p>
+
+<div class="meter">
+
+<div id="loveFill">
+
+</div>
+
+</div>
+
+<p id="loveText">
+
+0%
+
+</p>
+
+<button id="loveBtn">
+
+Klik Terus ❤️
+
+</button>
+
+</div>
+
+PAGE 7
+
+<div class="page">
+
+<h2>
+💌 Secret Letter
+</h2>
+
+<p class="center">
+
+Klik amplopnya ya sayang 🤍
+
+</p>
+
+<div class="secret-envelope" id="secretEnvelope">
+
+💌
+
+</div>
+
+<div id="secretMessage" style="display:none;">
+
+<h3>
+
+Hai Sayangkuu, Cintaku, Jamet ku, Dunia ku ❤️
+
+</h3>
+
+<p>
+
+Aku merasa menjadi salah satu perempuan yang paling beruntung,
+
+Terima kasih selalu berusaha menjadi laki-laki yang selalu mikirin perasaan aku,
+
+Terima kasih sudah membuat aku merasa dicintai dan selalu mengusahakan aku.
+
+Semoga ulang tahun ini membawa banyak kebahagiaan,
+
+Semoga semua impian kamu satu per satu terwujud.
+
+Terimakasih buat bunda dan ayah yang udah berhasil membesarkan kamu jadi laki-laki yang baik.
+
+dan semoga di akhir kamu akan terus memilih aku sebagai pasangan hidup kamu.
+
+I always support whatever choices you make, as long as it's good for u beloved 🤍.
+
+aku ngetik nya nangis tapi, I love u more than words can say.
+
+♡
+
+</p>
+
+</div>
+
+</div>
+
+<!-- =========================
+PAGE 8
+========================= -->
+
+<div class="page">
+
+<h2>
+
+100 Reasons Why I Love You ❤️
+
+</h2>
+
+<div class="reasonBox">
+
+<p id="reasonText">
+
+Klik tombol Show Reason ya 🤍
+
+</p>
+
+</div>
+
+<button id="reasonBtn">
+
+Show Reason ❤️
+
+</button>
+
+</div>
+
+PAGE 9
+
+<div class="page">
+
+<h2>
+⏳ Days Together
+</h2>
+
+<p class="center">
+
+Sudah bersama selama...
+
+</p>
+
+<div id="timer">
+
+000 Hari
+
+</div>
+
+<p class="center">
+
+Semoga angka ini terus bertambah sampai kita tua nanti. 🤍
+
+</p>
+
+</div>
+
+PAGE 10
+
+<div class="page">
+
+<h2>
+🎡 Lucky Wheel
+</h2>
+
+<p class="center">
+
+Hari ini kamu dapat hadiah dari aku 🤍
+
+</p>
+
+<div class="wheel-box">
+
+<div id="wheelResult">
+
+Klik tombol di bawah ❤️
+
+</div>
+
+<button id="wheelBtn">
+
+Putar Hadiah 🎁
+
+</button>
+
+</div>
+
+</div>
+
+PAGE 11
+
+<div class="page">
+
+<h2>
+
+🎂 Birthday Wish
+
+</h2>
+
+<p class="center">
+
+Klik lilinnya yaa 🕯️
+
+</p>
+
+<div class="cake-area">
+
+<div id="birthdayBtn">
+
+🕯️
+
+</div>
+
+<div id="birthdayText"></div>
+
+</div>
+
+</div>
+
+</div>
+
+PAGE 12
+
+<div class="page">
+
+<h2>
+
+💖 Promise
+
+</h2>
+
+<div class="notes">
+
+<div class="note">
+
+Aku akan selalu berusaha jadi pasangan yang lebih baik.
+
+</div>
+
+<div class="note">
+
+Semoga kita selalu saling mengerti.
+
+</div>
+
+<div class="note">
+
+Semoga kita selalu diberi kesehatan.
+
+</div>
+
+<div class="note">
+
+Semoga semua mimpi kita tercapai.
+
+</div>
+
+</div>
+
+</div>
+
+PAGE 13
+
+<div class="page ending">
+
+<img src="images/foto5.jpeg" class="ending-photo">
+
+<h1>
+
+I Love You
+
+♡
+
+</h1>
+
+<p>
+
+Dari aku yang suka kamu panggil CEMPLUK.
+
+Terima kasih sayang atas semua yang kamu beli buat aku,
+
+Semoga rezeki kamu sellau diperlancar, aamiin.
+
+Semoga ulang tahun kamu menjadi awal dari banyak kebahagiaan baru.
+
+Semoga semua doa kamu dikabulkan.
+
+Semoga semua cita-cita kamu tercapai.
+
+Dan semoga...
+
+kita bisa terus bersama dan ga kalah sama ego kita.
+
+Happy Birthday, calon mas bojo. 🤍
+
+</p>
+
+<button id="hugBtn">
+
+Virtual Hug 🤍
+
+</button>
+
+</div>
+
+<!-- =========================
+FOOTER
+========================= -->
+
+<footer class="footer">
+
+<p>
+
+Made with 🤍 by Dewi Aulia Nurjanah
+
+</p>
+
+<p>
+
+Happy Birthday Ma'Boboi 🌷
+
+</p>
+
+</footer>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
